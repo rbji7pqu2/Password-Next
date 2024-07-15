@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const api: string = process.env.NEXT_PUBLIC_API_URL || 'http://127.0.0.1:19899';
+const api: string = 'https://api.password.688828.xyz';
 
 const request = axios.create({
     baseURL: api,
