@@ -293,7 +293,7 @@ export default function Home() {
               <button className={styles.loginButton}>Register...</button>
             )}
 
-            <p className={styles.register}>Already have an account? <span onClick={() => { setRegisterStatus(false) }}>Click to log in.</span></p>
+            <p className={styles.register}>Already have an account? <span onClick={() => { setRegisterStatus(false) }}>Click to login.</span></p>
           </div>
         )}
 
